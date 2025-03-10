@@ -24,6 +24,14 @@ p {
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
 
+
+.content{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
@@ -36,7 +44,7 @@ form {
 
 #sign-in,
 #sign-up {
-  width: 100%;
+  width: 50%;
 }
 
 a {
@@ -74,6 +82,7 @@ input[type="submit"] {
   outline: none;
   clear: left;
   cursor: pointer;
+
 }
 
 input[type="submit"]:hover {
